@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-color:cornflowerblue;
+  color: white;
+}
+
+.title, .submission, form, .btn1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+input, select {
+  box-sizing: border-box;
+  padding: 5px 0px 5px 0px;
+  font-weight:bold;
+}
+
+form {
+  gap: 50px;
+}
+
+.btn, .delBtn, .readBtn {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 35px;
+  width: 95px;
+  line-height: 25px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #1f6299;
+  transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  padding: 0 18px;
+}
+
+.btn:hover, .delBtn {
+  color: #ffffff;
+  background-color: #1a4f7a;
+}
+
+.outside-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#main-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 35px;
+  align-items: center;
+}
+
+.book {
+  background-color: white;
+  min-height: 190px;
+  color: black;
+  font-weight:bold;
+  padding: 10px 5px 10px 5px;
+  text-align: center;
+}
+
+.delBtn {
+  margin-top: 10px;
+}
